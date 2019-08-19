@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <!-- bean definitions here -->
+     <bean id="clerk" class="com.demo.assignment.Clerk" scope="prototype"></bean>
+       <bean id="prg" class="com.demo.assignment.Programmer" scope="prototype"></bean>
+         <bean id="mng" class="com.demo.assignment.Manager" scope="prototype"></bean>
+   </beans>
+   
